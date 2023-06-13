@@ -1,2 +1,3 @@
-//your JS code here. If required.
-window.body.write("DOM load success")
+document.addEventListener("DOMContentLoaded", function() {
+  document.body.textContent = "DOM load success";
+});
